@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"
+    <meta charset="utf-8" />
+    
+   <style>
+     h3, p {
+       color:white; 
+       font-family: "verdana", sans-serif;
+       text-align:center;
+     }
+     
+     h1 {
+       font-family: "verdana", sans-serif;
+       color: white;
+       font-size: 50px;
+       text-align:center;
+       color: rgb(255, 255, 255);
+     }
+     
+     body {
+       padding: 0;
+       margin: 0;
+       background-color:rgb(249,164,179);
+     }
+     canvas {
+       border-radius: 6em;
+       position:absolute;
+       left: 50%;
+       transform: translate(-50%,0);
+       width:50%;
+       padding: 50px;
+       text-align: center;
+     }
+     
+     .descrip {
+       color: white;
+       font-size: 20px;
+     }
+
+	</style>
+
+  </head>
+  <body>
+   
+	<h1>Myla's World</h1>
+    <p class="descrip">Hi! Welcome to the world of Myla the cat. She loves to catch flies. Please help her catch some flies!</p>
+    <br>
+    <h3> Instructions</h3>
+		<p>Left arrow key: move left</p>
+		<p>Right arrow key: move right</p>
+		<p>Space bar key: collect flies</p>
+	
+    <script src="sketch.js"></script>
+    <script src="Collector.js"></script>
+    <script src="Target.js"></script>
+
+  </body>
+</html>
